@@ -15,3 +15,20 @@ body {
     height: 100%;
     max-height: 2rem;
 }
+
+.footer__container {
+    height: 8rem;
+}
+
+.footer__container a  {
+    color: white;
+    transition: all ease-in-out .3s;
+}
+
+.footer__container a:hover {
+    opacity: .8;
+}
+
+.footer__title {
+    letter-spacing: 2px;
+}
