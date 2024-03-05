@@ -28,6 +28,18 @@ body {
     font-weight: 300;
 }
 
+.card-body, .card img {
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body {
+    background-color: rgba(0, 153, 221, .8)!important;
+}
+
+.card:hover img {
+    opacity: .9 !important;
+}
+
 .footer__container {
     height: 8rem;
 }
@@ -62,5 +74,9 @@ body {
 
     .contactame {
         padding: 0 .8rem;
+    }
+
+    #destacados {
+        padding: 0 1rem;
     }
 }
