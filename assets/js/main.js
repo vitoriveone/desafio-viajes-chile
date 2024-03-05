@@ -18,4 +18,8 @@ $(document).ready(function () {
             });
         }
     });
+
+    $('#btn-enviar').on('click', function (event) {
+        event.preventDefault();
+    })
 });

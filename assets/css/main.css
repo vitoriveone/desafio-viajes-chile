@@ -59,4 +59,8 @@ body {
     .footer__container i {
         font-size: 2rem;
     }
+
+    .contactame {
+        padding: 0 .8rem;
+    }
 }
