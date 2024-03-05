@@ -6,4 +6,16 @@ $(document).ready(function () {
     $('.carousel-button').on('click', function (event) {
         myModal.show();
     })
+
+    $('a').on('click', function(event){
+        if(this.hash !== ""){
+            event.preventDefault();
+            let hash = this.hash;
+            $('html,  body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                console.log(window.location.hash);
+            });
+        }
+    });
 });

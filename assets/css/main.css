@@ -19,7 +19,13 @@ body {
 .carousel-item img{
     object-fit: cover;
     object-position: center 10%;
-    max-height: 100vh;
+    height: 100vh;
+}
+
+.text__justify {
+    line-height: 1.8rem;
+    text-align: justify;
+    font-weight: 300;
 }
 
 .footer__container {
@@ -37,4 +43,20 @@ body {
 
 .footer__title {
     letter-spacing: 2px;
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        object-position: center 10%;
+        height: 70vh;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .footer__container i {
+        font-size: 2rem;
+    }
 }
